@@ -6,6 +6,9 @@ namespace Artprima\PrometheusMetricsBundle\Metrics;
 
 use Symfony\Component\HttpFoundation\Request;
 
+/**
+ * Resolves labels from the request.
+ */
 class LabelResolver
 {
     /** @var LabelConfig[] */
